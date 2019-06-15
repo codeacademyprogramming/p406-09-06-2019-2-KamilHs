@@ -1,0 +1,383 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+header{
+    
+    font-weight: bold;
+}
+header div i{
+    float:right;
+}
+
+header div p{
+    font-size: 40px;
+}
+
+header div p span{
+    color: #337AB7;
+}
+
+header div{
+    margin-bottom: 50px;
+}
+
+nav{
+    margin-top: -100px;
+    background-image: url("https://durhamcollege.ca/wp-content/uploads/Computer-Programmer.jpg");
+    background-size: cover;
+    height: 850px;
+}
+
+nav h1{
+    font-weight: bolder;
+    padding: 100px 450px 0 450px;
+    color: white;
+    font-size: 120px;
+    line-height: 120px;
+}
+
+nav p{
+    color: white;
+    padding-left:450px;
+    font-size: 25px;    
+}
+
+nav a,.sumbit{
+    border:1px solid #007BFF;
+    border-radius: 50px;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+}
+nav a{
+    margin-left: 450px;
+}
+
+.first{
+    margin-top: 150px;
+    vertical-align: bottom;
+}
+
+.image{
+    background-image: url("https://cdn0-production-images-kly.akamaized.net/9Ty1wdE_jAWA9BA_P-YBQZysEpc=/673x373/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2704568/original/006187600_1547545535-domenico-loia-310197-unsplash.jpg");
+    height: 400px;
+    width: 550px;
+    background-size: cover;
+}
+
+.first div{
+    display: inline-block;
+}
+
+.first .about{
+    margin-left: 100px;
+}
+.first .aboutUs{
+ 
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.first h2{
+    font-size: 30px;
+    color: #007BFF;
+}
+
+.first .description{
+    font-weight: 300;
+    line-height: 40px;
+
+}
+.first .description i{
+    color: #5CB85C;
+}
+
+.playlink{
+    margin-left: 700px;
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 20px;
+}
+
+.second{
+    margin-top:300px;
+}
+
+.second .team{
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.second h2{
+    font-size: 30px;
+    color: #007BFF;
+}
+
+.second div{
+    display: inline-block;
+    height: 550px;
+    width: 550px;
+    background-size: cover;
+}
+
+.james{
+    background-image: url("photos/person_1.jpg");
+    
+}
+
+.chris{
+    margin-left: 30px;
+    background-image: url("photos/person_2.jpg")
+}
+
+.second div h3,p{
+    margin-left: 20px;
+}
+.second div p{
+    font-weight: 300;
+    line-height: 30px;
+}
+.second div p i{
+    color: #007BFF;
+    margin-right: 15px;
+}
+
+.what-we-do div{
+
+border:1px solid #EEEEEE;
+border-top:4px solid #007BFF;
+display: inline-block;
+margin: 10px 10px 10px 0;
+width: 30%;
+height: 350px;
+
+}
+
+.what-we-do{
+    margin-top: 200px;
+}
+.what{
+margin: 0px;
+font-weight: 300;
+font-size: 15px;
+}
+
+.what-we-do h2{
+    color: #007BFF;
+    font-size: 40px;
+}
+
+.what-we-do div a, .visit{
+    text-decoration: none;
+    float: left;
+    margin: 30px;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 15px; 
+} 
+
+.what-we-do div h3,p{
+    font-weight: 300;
+    box-sizing: border-box;
+    margin: 10px 0 10px 20px;
+}
+
+.what-we-do i{
+    margin: 20px;
+    font-size: 50px;
+    color: #007BFF;
+    box-sizing: border-box;
+}
+
+.recent-works{
+    margin-top: 10px;
+    display: flex;
+
+}
+
+.out{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 40px;
+    color: #007BFF;
+}
+
+.works{
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.kitchen, .plant{
+    width: 100%;
+    background-size: cover;
+    height: 650px;
+}
+
+.picture{
+    width: 100%;
+}
+
+.kitchen, .title-one{
+    vertical-align: top;
+}
+
+.italic{
+    font-weight:500;
+    border-left: 8px solid lightgray;
+    padding-left: 15px;
+}
+
+.title-one h3,.title-two h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.title-one p,.title-two p, .testimonials p{
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: 0;
+}
+
+.user-comment{
+    width: 10%;
+    border-radius: 50%;
+    padding-left: 15px;
+    
+}
+
+.title-one{
+    margin-left: 100px;
+
+}
+
+.name{
+    display: flex;
+    font-weight: 500;
+}
+
+.visit{
+    margin-left: 0;
+}
+
+.plant, .title-two{
+    vertical-align: top;
+}
+
+.title-two{
+    margin-right: 100px;
+}
+
+.testimonials{
+    display: flex;
+}
+
+.left{
+    margin-right: 100px;
+}
+
+.line_1 input{
+    width: 48%
+}
+
+.line_2 input, textarea{
+    width: 97.8%;
+}
+
+textarea{
+    height: 200px;
+}
+
+.contact input,textarea{
+    border: 1px solid lightgray;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.line_4{
+    margin-top: 25px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #333333;
+}
+
+footer h3{
+    color:white;
+    margin-bottom: 20px;
+}
+
+.inline{
+    padding-top: 100px;
+}
+.inline div{
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.center{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.center i{
+    margin-right:30px;
+}
+
+.center i,p,a{
+    color:#8c8c8c;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.inline p{
+    margin-left: 0;
+    line-height: 26px;
+}
+
+footer input{
+    width: 100%;
+    height: 40px;
+    background: #4d4d4d;
+    border-radius: 0;
+    border: 1px solid #333333;
+    color: white;
+    font-weight: 500;
+}
+
+
+.subscribe div{
+    width: 300px;
+    margin:0 0 20px 0;
+    display: block;
+}
+
+button{
+    text-align: center;
+    border:1px solid #007BFF;
+    border-radius: 50px;
+    background-color: #007BFF;
+    color: white;
+    width: 50%;
+    height: 30px;
+}
